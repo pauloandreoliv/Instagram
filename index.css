@@ -218,11 +218,10 @@ body {
 }
 
 .publicacoes{
-  max-width: 720px;
+  max-width: 735px;
 }
 
 #publicacao{
-  background-image: url(https://www.eventim.com.br/campaign/fileadmin/fm_br/campaigns/2022/theweeknd/tw-artwork-min.jpg);
   background-size: contain;
   cursor: pointer;
   width: 220px;
