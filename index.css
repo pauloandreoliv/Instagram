@@ -11,8 +11,9 @@ body {
 }
 
 .area_icone{
-  width: 200px;
+  width: 250px;
   height: 200px;
+  padding-left: 50px;
   float: left;
 }
 
@@ -148,5 +149,55 @@ body {
 .topo{
   width: fit-content;
   border-bottom: 1px solid silver;
+  padding: 5px;
+}
+
+.area_destaques{
+  overflow-y: hiddem;
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+#destaque{
+  padding: 0px 15px 0px 0px;
+  width: 115px;
+  height: 128px;
+  display: inline-block;
+  float: left;
+}
+
+#area_icone_destaque{
+  width: 77px;
+  height: 77px;
+  background-color: rgb(243, 243, 243);;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+#box_destaque{
+  margin-top:-4px;
+  margin-left:-4px;
+  width: 77px;
+  height: 77px;
+  background-color: white;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+#icone_destaque{
+  background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/01/the-weeknd-album.jpg);
+  background-size: contain;
+  border-radius: 50%;
+  width: 77px;
+  height: 77px;
+}
+
+#texto_destaque{
+  width: 80px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
   padding: 5px;
 }
