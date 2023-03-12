@@ -147,8 +147,8 @@ body {
 }
 
 .topo{
-  width: fit-content;
   border-bottom: 1px solid silver;
+  width: fit-content;
   padding: 5px;
 }
 
@@ -200,4 +200,12 @@ body {
   font-weight: 600;
   text-align: center;
   padding: 5px;
+}
+
+#item_menu{
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-right: 25px;
+  padding-top: 25px;
+  padding: 10px;
 }
