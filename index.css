@@ -30,6 +30,7 @@ body {
   margin-top: -10px;
   width: 100px;
   height: 60px;
+  cursor: pointer;
 }
 
 #pesquisar {
@@ -55,6 +56,7 @@ body {
   width: 80px;
   display: inline-block;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 #btn_cadastrar {
@@ -68,6 +70,7 @@ body {
   width: 80px;
   display: inline-block;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 #icone{
@@ -76,6 +79,7 @@ body {
   height: 150px;
   padding: 6px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 #box_icone{
@@ -114,6 +118,7 @@ body {
   width: 80px;
   display: inline-block;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 
@@ -165,6 +170,7 @@ body {
   height: 128px;
   display: inline-block;
   float: left;
+  cursor: pointer;
 }
 
 #area_icone_destaque{
@@ -208,4 +214,39 @@ body {
   margin-right: 25px;
   padding-top: 25px;
   padding: 10px;
+  cursor: pointer;
+}
+
+.publicacoes{
+  max-width: 1259px;
+}
+
+#publicacao{
+  background-image: url(https://www.eventim.com.br/campaign/fileadmin/fm_br/campaigns/2022/theweeknd/tw-artwork-min.jpg);
+  background-size: contain;
+  cursor: pointer;
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#publicacao .infos_publicacao{
+  display: none;
+}
+
+#publicacao:hover .infos_publicacao{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  background-color: rgba(0, 0, 0, 0.308);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.infos_publicacao #comentarios{
+  margin-left: 20px;
 }
