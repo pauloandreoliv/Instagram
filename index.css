@@ -45,6 +45,27 @@ body {
 }
 
 #btn_entrar {
+  margin-left: 15px;
+}
+
+#btn_cadastrar {
+  margin-left: 15px;
+}
+
+.btn_cinza{
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 2;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  width: 80px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn_azul{
   background-color: #0095f6;
   color: white;
   border-radius: 5px;
@@ -55,11 +76,10 @@ body {
   height: 30px;
   width: 80px;
   display: inline-block;
-  margin-left: 15px;
   cursor: pointer;
 }
 
-#btn_cadastrar {
+.btn_texto_azul{
   color: #0095f6;
   border-radius: 5px;
   text-align: center;
@@ -69,7 +89,6 @@ body {
   height: 30px;
   width: 80px;
   display: inline-block;
-  margin-left: 15px;
   cursor: pointer;
 }
 
@@ -108,17 +127,7 @@ body {
 }
 
 #btn_seguir {
-  background-color: rgb(243, 243, 243);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 2;
-  font-size: 14px;
-  font-weight: bold;
-  height: 30px;
-  width: 80px;
-  display: inline-block;
   margin-left: 15px;
-  cursor: pointer;
 }
 
 
@@ -248,4 +257,74 @@ body {
 
 .infos_publicacao #comentarios{
   margin-left: 20px;
+}
+
+.area_contas{
+  overflow: hidden;
+}
+
+.contas_relacionadas{
+  width: 667px;
+  height: 230px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid silver;
+  margin-left: -7px !important;
+}
+
+#titulo_contas_relacionadas{
+  font-size: 14px;
+  color: rgb(129, 129, 129);
+}
+#btn_ver_tudo{
+  float: right;
+  margin-top: -20px;
+}
+
+#btn_fechar{
+  font-size: 12px;
+  color: silver;
+  float: right;
+  padding: 5px;
+}
+
+#conta_relacionada{
+  width: 156px;
+  height: 200px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  float: left;
+}
+
+#icone_conta_relacionada{
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  border: 1px solid silver;
+  margin-left: 40px;
+  margin-top: 30px;
+  background-size: contain;
+}
+
+#nome_conta_relacionada, #usuario_conta_relacionada{
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+#usuario_conta_relacionada{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#nome_conta_relacionada{
+  font-size: 14px;
+}
+
+#btn_ver_perfil{
+  margin-left: 40px;
+  margin-top: 5px;
 }
