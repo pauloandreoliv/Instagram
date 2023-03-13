@@ -444,9 +444,10 @@ select{
 .popup{
   position: fixed;
   z-index: 9;
-  width: 100vw;
+  width: 102vw;
   height: 102vh;
   margin-top: -2vh;
+  margin-left: -2vw;
   background-color: rgba(0, 0, 0, 0.308);
 }
 
