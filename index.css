@@ -31,6 +31,7 @@ body {
   width: 100px;
   height: 60px;
   cursor: pointer;
+  transition: 0.12s;
 }
 
 #pesquisar {
@@ -63,6 +64,7 @@ body {
   width: 80px;
   display: inline-block;
   cursor: pointer;
+  transition: 0.12s;
 }
 
 .btn_azul{
@@ -77,6 +79,19 @@ body {
   width: 80px;
   display: inline-block;
   cursor: pointer;
+  transition: 0.12s;
+}
+
+.btn_azul:hover{
+  background-color: #1877f2;
+}
+
+.btn_cinza:hover{
+  background-color: #dbdbdb;
+}
+
+.btn_texto_azul:hover, #logo:hover{
+  opacity: 0.5;
 }
 
 .btn_texto_azul{
@@ -90,6 +105,7 @@ body {
   width: 80px;
   display: inline-block;
   cursor: pointer;
+  transition: 0.12s;
 }
 
 #icone{
@@ -224,6 +240,11 @@ body {
   padding-top: 25px;
   padding: 10px;
   cursor: pointer;
+}
+
+#item_menu:active{
+  border-top: 1px solid black;
+  font-weight: bold;
 }
 
 .publicacoes{
