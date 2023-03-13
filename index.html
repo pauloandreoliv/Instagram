@@ -6,6 +6,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 <link href="style.css" rel="stylesheet">
+
   </head>
   <body>
     
@@ -60,14 +61,14 @@
       </div>
       <div class="menu">
         <div class="content">
-      <div id="item_menu" style="border-top: 1px solid black; font-weight: bold;"><i class="fa-solid fa-border-all"></i> PUBLICAÇÕES</div>
-      <div id="item_menu"><i class="fa-solid fa-play"></i> REELS</div>
-      <div id="item_menu"><i class="fa-solid fa-id-card-clip"></i> MARCAÇÕES</div>
+      <div class="item_menu" id="item_publicacoes" onclick="verPublicacoes()" style="border-top: 1px solid black; font-weight: bold;"><i class="fa-solid fa-border-all"></i> PUBLICAÇÕES</div>
+      <div class="item_menu" id="item_reels" onclick="verReels()"><i class="fa-solid fa-play"></i> REELS</div>
+      <div class="item_menu" id="item_marcacoes" ><i class="fa-solid fa-id-card-clip"></i> MARCAÇÕES</div>
         </div>
       </div>
 
 <div class="content">
-    <div class="publicacoes">
+    <div class="publicacoes" id="publicacoes">
 
       <div id="publicacao" style="background-image: url(https://www.eventim.com.br/campaign/fileadmin/fm_br/campaigns/2022/theweeknd/tw-artwork-min.jpg);">
       <div class="infos_publicacao">
@@ -139,6 +140,96 @@
   </div>
 </div>
 
+<div class="content">
+  <div class="reels" id="reels" style="display: none;">
+
+    <div id="reel" style="background-image: url(https://www.billboard.com/wp-content/uploads/2021/04/01-The-Weeknd-Ariana-Grande-Save-Your-Tears-Remix-Official-Video-screenshot-2021-billboard-1548-1619187542.jpg);">
+    <div class="infos_reel">
+      <div id="curtidas">
+            <span><i class="fa-solid fa-heart"></i> 400</span>
+            </div>
+            <div id="comentarios">
+              <span><i class="fa-solid fa-comment"></i> 50</span>
+            </div>
+    </div>
+    <div id="visualizacoes">
+        <span><i class="fa-solid fa-play"></i>  100</span>
+    </div>
+    </div>
+
+    <div id="reel" style="background-image: url(https://www.billboard.com/wp-content/uploads/2021/04/01-The-Weeknd-Ariana-Grande-Save-Your-Tears-Remix-Official-Video-screenshot-2021-billboard-1548-1619187542.jpg);">
+    <div class="infos_reel">
+      <div id="curtidas">
+            <span><i class="fa-solid fa-heart"></i> 400</span>
+            </div>
+            <div id="comentarios">
+              <span><i class="fa-solid fa-comment"></i> 50</span>
+            </div>
+    </div>
+    <div id="visualizacoes">
+        <span><i class="fa-solid fa-play"></i>  100</span>
+    </div>
+    </div>
+
+    <div id="reel" style="background-image: url(https://www.billboard.com/wp-content/uploads/2021/04/01-The-Weeknd-Ariana-Grande-Save-Your-Tears-Remix-Official-Video-screenshot-2021-billboard-1548-1619187542.jpg);">
+    <div class="infos_reel">
+      <div id="curtidas">
+            <span><i class="fa-solid fa-heart"></i> 400</span>
+            </div>
+            <div id="comentarios">
+              <span><i class="fa-solid fa-comment"></i> 50</span>
+            </div>
+    </div>
+    <div id="visualizacoes">
+        <span><i class="fa-solid fa-play"></i>  100</span>
+    </div>
+    </div>
+
+    <div id="reel" style="background-image: url(https://www.billboard.com/wp-content/uploads/2021/04/01-The-Weeknd-Ariana-Grande-Save-Your-Tears-Remix-Official-Video-screenshot-2021-billboard-1548-1619187542.jpg);">
+    <div class="infos_reel">
+      <div id="curtidas">
+            <span><i class="fa-solid fa-heart"></i> 400</span>
+            </div>
+            <div id="comentarios">
+              <span><i class="fa-solid fa-comment"></i> 50</span>
+            </div>
+    </div>
+    <div id="visualizacoes">
+        <span><i class="fa-solid fa-play"></i>  100</span>
+    </div>
+    </div>
+
+    <div id="reel" style="background-image: url(https://www.billboard.com/wp-content/uploads/2021/04/01-The-Weeknd-Ariana-Grande-Save-Your-Tears-Remix-Official-Video-screenshot-2021-billboard-1548-1619187542.jpg);">
+    <div class="infos_reel">
+      <div id="curtidas">
+            <span><i class="fa-solid fa-heart"></i> 400</span>
+            </div>
+            <div id="comentarios">
+              <span><i class="fa-solid fa-comment"></i> 50</span>
+            </div>
+    </div>
+    <div id="visualizacoes">
+        <span><i class="fa-solid fa-play"></i>  100</span>
+    </div>
+    </div>
+
+    <div id="reel" style="background-image: url(https://www.billboard.com/wp-content/uploads/2021/04/01-The-Weeknd-Ariana-Grande-Save-Your-Tears-Remix-Official-Video-screenshot-2021-billboard-1548-1619187542.jpg);">
+    <div class="infos_reel">
+      <div id="curtidas">
+            <span><i class="fa-solid fa-heart"></i> 400</span>
+            </div>
+            <div id="comentarios">
+              <span><i class="fa-solid fa-comment"></i> 50</span>
+            </div>
+    </div>
+    <div id="visualizacoes">
+        <span><i class="fa-solid fa-play"></i>  100</span>
+    </div>
+    </div>
+
+  </div>
+</div>
+
     <div class="content">
 <div class="contas_relacionadas">
       <div id="titulo_contas_relacionadas">Contas relacionadas</div>
@@ -188,6 +279,7 @@
       <div id="desenvolvedor"><a href="https://github.com/pauloandreoliv">Clone desenvolvido por <i class="fa-brands fa-github"></i> pauloandreoliv</a></div>
     </footer>
     </div>
-
+    
+  <script src="script.js"></script>
   </body>
 </html>

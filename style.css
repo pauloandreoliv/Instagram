@@ -233,7 +233,7 @@ body {
   padding: 5px;
 }
 
-#item_menu{
+.item_menu{
   font-size: 12px;
   letter-spacing: 2px;
   margin-right: 25px;
@@ -242,7 +242,7 @@ body {
   cursor: pointer;
 }
 
-#item_menu:active{
+.item_menu:active{
   border-top: 1px solid black;
   font-weight: bold;
 }
@@ -278,6 +278,61 @@ body {
 
 .infos_publicacao #comentarios{
   margin-left: 20px;
+}
+
+.reels{
+  max-width: 735px;
+  margin-bottom: 25px;
+}
+
+#reel {
+  background-size: cover;
+  cursor: pointer;
+  width: 212px;
+  height: 330px;
+  display: inline-block;
+  margin: 15px;
+  color: white;
+}
+
+#reel:after {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(0deg, black 0%, transparent 30%);
+    width: 212;
+    height: 330;
+}
+
+#reel:hover #visualizacoes{
+  display: none;
+}
+
+.infos_reel{
+  display: none;
+}
+
+#reel:hover .infos_reel{
+  position: absolute;
+  width: 212px;
+  height: 330px;
+  background-color: rgba(0, 0, 0, 0.308);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#reel #comentarios{
+  margin-left: 20px;
+}
+
+#visualizacoes{
+  padding: 15px;
+  font-size: 15px;
+  margin-top: 280px;
+  position: absolute;
+  z-index: 2;
 }
 
 .area_contas{
