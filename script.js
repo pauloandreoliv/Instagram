@@ -7,7 +7,15 @@ function verReels() {
 
 function verPublicacoes() {
   document.getElementById("publicacoes").style.display = "block";
-  document.getElementById("item_reels").style.cssText="border-top: none; font-weight: 0;";
   document.getElementById("item_publicacoes").style.cssText="border-top: 1px solid black; font-weight: bold;";
+  document.getElementById("item_reels").style.cssText="border-top: none; font-weight: 0;";
   document.getElementById("reels").style.display = "none";
+}
+
+function abrirPopUp(){
+  document.getElementById("popup").style.display = "block";
+}
+
+function fecharPopUp(){
+  document.getElementById("popup").style.display = "none";
 }

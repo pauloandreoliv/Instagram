@@ -9,12 +9,31 @@
 
   </head>
   <body>
-    
+    <div class="popup" id="popup" style="display:none;">
+      <div class="area_login">
+      <div id="box_login">
+        <div id="btn_fechar" onclick="fecharPopUp()"><i class="fa-solid fa-close"></i>
+        </div>
+        <div id="aviso">Você precisa estar logado</div>
+        <div id="logo"></div>
+
+        <div class="formulario_login">
+        <input class="input" placeholder="Telefone, nome de usuário ou email" type="text"></input>
+
+<input class="input" placeholder="Senha" type="text"></input>
+
+        <div class="btn_entrar">Entrar</div>
+        </div>
+
+      </div>
+      </div>
+    </div>
+
     <div class="barra">
       <div class="content">
         <div id="logo"></div>
         <input id="pesquisar" placeholder="Pesquisar" type="text"></input>
-        <div class="btn_azul" id="btn_entrar">Entrar</div>
+        <div class="btn_azul" id="btn_entrar" onclick="abrirPopUp()">Entrar</div>
         <div class="btn_texto_azul" id="btn_cadastrar">Cadastrar</div>
       </div>
       </div>
@@ -31,7 +50,7 @@
 
         <div class="area_perfil">
           <div id="usuario">pauloandreoliv</div>
-          <div class="btn_cinza" id="btn_seguir">Seguir</div>
+          <div class="btn_cinza" id="btn_seguir" onclick="abrirPopUp()">Seguir</div>
 
           <div class="infos">
             <div id="item"><span> 100 </span> publicações</div>
@@ -63,7 +82,7 @@
         <div class="content">
       <div class="item_menu" id="item_publicacoes" onclick="verPublicacoes()" style="border-top: 1px solid black; font-weight: bold;"><i class="fa-solid fa-border-all"></i> PUBLICAÇÕES</div>
       <div class="item_menu" id="item_reels" onclick="verReels()"><i class="fa-solid fa-play"></i> REELS</div>
-      <div class="item_menu" id="item_marcacoes" ><i class="fa-solid fa-id-card-clip"></i> MARCAÇÕES</div>
+      <div class="item_menu" onclick="abrirPopUp()"><i class="fa-solid fa-id-card-clip"></i> MARCAÇÕES</div>
         </div>
       </div>
 
@@ -280,6 +299,6 @@
     </footer>
     </div>
     
-  <script src="script.js"></script>
+	<script src="script.js"></script>
   </body>
 </html>
